@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <title>Etch Sketch</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mouse Over Sketch</h1>
+    </header>
+    <div class="container">
+        <div class="tools-container">
+            <p id="tool-heading"><i class="fas fa-toolbox"></i> Tools Box</p>
+            <button id="clear-btn" class="tools-btn"><i class="far fa-trash-alt"></i> Clear</button>
+            <button id="change-size" class="tools-btn"><i class="far fa-edit"></i> Change Grid Size</button>
+            <button id="eraser-btn" class="tools-btn"><i class="fas fa-eraser"></i> Eraser</button>
+            <button id="pen-btn" class="tools-btn"><i class="fas fa-paint-brush"></i> Pen</button>
+            <button id="rainbow-btn" class="tools-btn"><i class="fas fa-rainbow"></i> Rainbow</button>
+            <label id="pick-color-label" class="tools-btn" for="pick-color">
+                <i class="fas fa-palette"></i> Color Picker
+                <input type="color" id="pick-color" value="#ff1e56">
+            </label>
+        </div>
+        <div class="sketch-grid">
+        </div>
+    </div>
+    <footer>
+        <li>Coded by <a href="https://le000165.github.io/mycv/">Phong</a></li>
+        <li>Inspired by <a href="https://www.theodinproject.com/">The Odin Project</a></li>
+    </footer>
+    <script src="./myscript.js"></script>
+</body>
+
+</html>
